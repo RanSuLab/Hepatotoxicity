@@ -1,3 +1,4 @@
+INTRODUCTION
 deal_with_data_tg_invitro.R plays the code for feature selection of open_tggate_liver_single_rat_invitro
 deal_with_data_tg_invivo.R plays the code for feature selection of open_tggate_liver_single_rat_invivo
 deal_with_data_dm_invivo.R plays the code for feature selection of drug_matrix
@@ -8,6 +9,7 @@ cnn_model_tg_invitro.py is used to train pictures with different kinds of convol
 R version 3.4.0
 Python version 3.6
 
+USE:
 You need to download the gene exprssion files of open_tggate_liver_single_rat_invitro and open_tggate_liver_single_rat_invivo, from the website 'https://toxygates.nibiohn.go.jp/toxygates/'
 download the drug_matrix data from 'ftp://anonftp.niehs.nih.gov/drugmatrix/Affymetrix_data/'
 You need to download the corresponding drug data according to our drug toxicity list.
