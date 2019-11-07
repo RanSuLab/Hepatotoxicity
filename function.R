@@ -29,6 +29,19 @@ doseSplit<-function(data,dose){
   result<-data[,c(mark)]
   return(result)
 }
+
+
+nameOmit<-function(data){
+  name<-colnames(data)
+  name2<-strsplit(name,split = ' ')
+  name3<-c()
+  for(i in 1:length(name2)){
+    if(length(name2[[i]])==1)
+    name3<-c(name3,i)
+  }
+  
+  return(data[,name3])
+}
 #####del the inf data
 omitInf<-function(data){
   
